@@ -272,17 +272,14 @@ const projects2 = [
       "Collaborated with Swiggy on a reel that garnered 109K views, showcasing engaging content for their audience.",
     tags: [
       {
-        name: "Gold",
+        name: "Swiggy",
         color: "blue-text-gradient",
       },
       {
-        name: "Open IIT",
+        name: "Reel-Making",
         color: "green-text-gradient",
       },
-      {
-        name: "Film-making",
-        color: "pink-text-gradient",
-      },
+     
     ],
     image: swiggy,
     source_code_link: "https://www.instagram.com/share/BBPrXxZhA8",
@@ -293,12 +290,8 @@ const projects2 = [
       "Partnered with Flipkart Spoyl to create a reel that reached 200K views, highlighting their brand offerings.",
     tags: [
       {
-        name: "Gold",
+        name: "Flipkart Spoyl",
         color: "blue-text-gradient",
-      },
-      {
-        name: "Reel-Rush",
-        color: "green-text-gradient",
       },
       {
         name: "Reel-Making",
@@ -314,16 +307,12 @@ const projects2 = [
       "Worked with Myntra FWD on a reel that attracted 105K views, promoting their fashion-forward products.",
     tags: [
       {
-        name: "Silver",
+        name: "Myntra FWD",
         color: "blue-text-gradient",
       },
       {
-        name: "Ad-Design",
+        name: "Reel-Making",
         color: "green-text-gradient",
-      },
-      {
-        name: "GC",
-        color: "pink-text-gradient",
       },
     ],
     image: myntra_fwd,
@@ -335,15 +324,12 @@ const projects2 = [
       "Collaborated with Garnier on a reel that achieved 64K views, focusing on skincare and beauty content.",
     tags: [
       {
-        name: "Gold",
+        name: "Garnier",
         color: "blue-text-gradient",
       },
+     
       {
-        name: "Open IIT",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Film-making",
+        name: "Reel-Making",
         color: "pink-text-gradient",
       },
     ],
@@ -356,17 +342,14 @@ const projects2 = [
       "Partnered with FanCall on a reel that received 1.5K views, exploring interactive fan engagement strategies.",
     tags: [
       {
-        name: "Gold",
+        name: "FanCall",
         color: "blue-text-gradient",
       },
       {
-        name: "Reel-Rush",
+        name: "Reel-Making",
         color: "green-text-gradient",
       },
-      {
-        name: "Reel-Making",
-        color: "pink-text-gradient",
-      },
+      
     ],
     image: fancall,
     source_code_link: "https://www.instagram.com/share/BBLyym06DY",
@@ -377,15 +360,11 @@ const projects2 = [
       "Collaborated with Disha Publication on a reel that garnered 50K views, promoting educational content and resources.",
     tags: [
       {
-        name: "Silver",
+        name: "Disha Publication",
         color: "blue-text-gradient",
       },
       {
-        name: "Ad-Design",
-        color: "green-text-gradient",
-      },
-      {
-        name: "GC",
+        name: "Reel-Making",
         color: "pink-text-gradient",
       },
     ],

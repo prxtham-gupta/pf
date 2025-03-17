@@ -21,9 +21,8 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        {/* Main content container - using flex to control layout */}
-        {/* You can adjust the justification to change horizontal positioning */}
-        <div className="flex flex-1 justify-between items-start">
+        {/* Main content container - using flex column on mobile, row on desktop */}
+        <div className="flex flex-col md:flex-row flex-1 justify-between items-center md:items-start gap-8">
           {/* Text content */}
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
@@ -35,24 +34,9 @@ const Hero = () => {
             </p>
           </div>
 
-          {/* Profile Image Container */}
-          {/* 
-            POSITION ADJUSTMENTS:
-            - To move the image, adjust these classes:
-            - mt-0 (margin top) - increase for more space from top
-            - ml-4 (margin left) - adjust for horizontal positioning
-            - You can also use mr-4 (margin right) if needed
-          */}
-          <div className="hidden md:block mt-0 ml-4">
-            {/* 
-              IMAGE SIZE AND BORDER ADJUSTMENTS:
-              - w-[250px] h-[250px]: Increase these values for a larger image (currently 250px)
-              - border-4: Controls border thickness (remove for no border)
-              - border-[#915EFF]: Border color (change color code as needed)
-              - rounded-full: Makes the image circular (change to rounded-lg for square with rounded corners)
-              <div className="w-[450px] h-[450px] rounded-full border-4 border-[#915EFF] overflow-hidden">
-            */}
-            <div className="w-[450px] h-[450px] rounded-full overflow-hidden">
+          {/* Profile Image Container - visible on all screens, positioned below text on mobile */}
+          <div className="mt-6 md:mt-0 md:ml-4 w-full max-w-[300px] md:max-w-[450px]">
+            <div className="w-full h-auto aspect-square rounded-full overflow-hidden">
               <img
                 src={profile || "/placeholder.svg"}
                 alt="Vishal profile"
