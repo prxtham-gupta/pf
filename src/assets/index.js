@@ -29,6 +29,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import swiggy from "./swiggy.png";
+import fs from "./fs.png";
+import garnier from "./garnier.png";
+import myntra_fwd from "./myntra_fwd.png";
+import Disha from "./Disha.png";
+import fancall from "./fancall.png";
+import ig from "./ig.png";
 
 export {
   logo,
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  swiggy,
+  myntra_fwd,
+  fancall,
+  fs,
+  garnier,
+  Disha,
+  ig,
 };

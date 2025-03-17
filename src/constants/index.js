@@ -23,6 +23,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  swiggy,
+  myntra_fwd,
+  fancall,
+  fs,
+  garnier,
+  Disha,
+  ig,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +49,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Content Creator",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Youtuber",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Vlogger",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Speaker",
     icon: creator,
   },
 ];
@@ -116,55 +123,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Unstop",
+    company_name: "Content Creator Intern",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: " May 2024 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and executed visual content strategies that enhanced brand visibility, leading to over 20K increase in Instagram followers",
+      "Collaborated on Ad campaigns for Flipkart Grid and Tata Crucible, resulting in over 4 lakh and over 1.2 lakh registrations, respectively",
+      "Developed, edited, and performed in student-centric multimedia content that strengthened branding and expanded reach to 5 million",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "YouTube | Instagram",
+    company_name: "Content Creator",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a YouTube and Instagram presence with over 35,000 followers by creating content, fostering a strong and engaged community",
+      "Produced several viral videos, contributing to a view count of over 20 million, significantly enhancing channel & audience engagement",
+      "Executed brand promotions, including partnerships with Spilz, by creatively integrating products into content, driving brand awareness",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Unacademy",
+    company_name: "Educator",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "October 2023 - November 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created and produced informational videos on JEE/NEET preparation for Unacademy platform, reaching an audience of 10K+ students",
+      "Collaborated closely with a team of creators and the Unacademy Marketing team to develop and deliver engaging educational content",
+      "Developed and executed product advertising strategies within the content, significantly boosting brand visibility & student engagement",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Technology Filmmaking and Photography Society",
+    company_name: "Senior Team Member",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "December 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded the scriptwriting, screenplay, and cinematography for the Indian Film Project, completing the production within a 50-hour",
+      "Played diverse roles in the IFP project, bringing characters to life with performances that enriched the creative vision and storytelling",
+      "Directed and executed sound design for the Freshers’ Production P.T.O overseeing post-production that met high artistic standards",
     ],
   },
 ];
@@ -198,62 +201,62 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Gold | Open IIT Short Film Making | IIT Kharagpur",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Led a team of 5+ students to create a short film that won gold in the Open IIT Short Film Making Competition 2022. Managed the entire production process, from ideation to final editing, ensuring a compelling narrative. Fostered teamwork and creativity to achieve top honors in a competitive setting.",
     tags: [
       {
-        name: "react",
+        name: "Gold",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Open IIT",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Film-making",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://drive.google.com/file/d/1QeivcDGaue92GU09wEgmogEUgdx-JMNc/view?usp=drivesdk",
   },
   {
-    name: "Job IT",
+    name: "Gold | Reel Rush | Global Entreprenuership Submit | IIT Kharagpur ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Won 1st place in the Reel Rush competition by E-Cell with a standout reel on the Global Entrepreneurship Summit. Created an impactful 50-second reel from 5 hours of footage, garnering 10k+ views and top recognition for storytelling and multimedia production.",
     tags: [
       {
-        name: "react",
+        name: "Gold",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Reel-Rush",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Reel-Making",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://drive.google.com/file/d/1QjtfGjStqUUCwwO7Vv0wbTZ8wS8dt431/view?usp=drivesdk",
   },
   {
-    name: "Trip Guide",
+    name: "Silver | Ad Design | General Championship | IIT Kharagpur",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Co-wrote and directed a mental health awareness ad that won silver in the Ad Design Competition at the General Championship. Ensured a polished, impactful final product and contributed to a compelling presentation that secured top recognition.",
     tags: [
       {
-        name: "nextjs",
+        name: "Silver",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Ad-Design",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "GC",
         color: "pink-text-gradient",
       },
     ],
@@ -262,4 +265,133 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const projects2 = [
+  {
+    name: "Swiggy",
+    description:
+      "Collaborated with Swiggy on a reel that garnered 109K views, showcasing engaging content for their audience.",
+    tags: [
+      {
+        name: "Gold",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Open IIT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Film-making",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: swiggy,
+    source_code_link: "https://www.instagram.com/share/BBPrXxZhA8",
+  },
+  {
+    name: "Flipkart Spoyl",
+    description:
+      "Partnered with Flipkart Spoyl to create a reel that reached 200K views, highlighting their brand offerings.",
+    tags: [
+      {
+        name: "Gold",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Reel-Rush",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Reel-Making",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fs,
+    source_code_link: "https://www.instagram.com/share/_0nQIOL-8",
+  },
+  {
+    name: "Myntra FWD",
+    description:
+      "Worked with Myntra FWD on a reel that attracted 105K views, promoting their fashion-forward products.",
+    tags: [
+      {
+        name: "Silver",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ad-Design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GC",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: myntra_fwd,
+    source_code_link: "https://www.instagram.com/share/_eY2MrOXP",
+  },
+  {
+    name: "Garnier",
+    description:
+      "Collaborated with Garnier on a reel that achieved 64K views, focusing on skincare and beauty content.",
+    tags: [
+      {
+        name: "Gold",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Open IIT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Film-making",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: garnier,
+    source_code_link: "https://www.instagram.com/share/BBACV5unZB",
+  },
+  {
+    name: "FanCall",
+    description:
+      "Partnered with FanCall on a reel that received 1.5K views, exploring interactive fan engagement strategies.",
+    tags: [
+      {
+        name: "Gold",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Reel-Rush",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Reel-Making",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fancall,
+    source_code_link: "https://www.instagram.com/share/BBLyym06DY",
+  },
+  {
+    name: "Disha Publication",
+    description:
+      "Collaborated with Disha Publication on a reel that garnered 50K views, promoting educational content and resources.",
+    tags: [
+      {
+        name: "Silver",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ad-Design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GC",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Disha,
+    source_code_link: "https://www.instagram.com/share/_q7XYHhsT",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, projects2 };

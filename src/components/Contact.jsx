@@ -6,7 +6,11 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+// template_40mvu3k
 
+// service_9p8a221
+
+//Eo-mZF65ZFHihRiiR
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -31,19 +35,19 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "JavaScript Mastery",
-          from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
+    emailjs.send(
+      "service_azcp0uo", 
+      "template_daaj2uu", 
+      {
+        from_name: form.name,
+        to_name: "Vishal Devra",
+        from_email: form.email,
+        to_email: "vishalsocialtab@gmail.com",
+        message: form.message,
+      },
+      "Eo-mZF65ZFHihRiiR" 
+    )
+    
       .then(
         () => {
           setLoading(false);

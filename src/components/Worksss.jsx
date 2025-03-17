@@ -3,9 +3,9 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, ig } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { projects2 } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -39,7 +39,7 @@ const ProjectCard = ({
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={github}
+                src={ig}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
@@ -67,12 +67,11 @@ const ProjectCard = ({
   );
 };
 
-const Works = () => {
+const Worksss = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My winnings</p>
-        <h2 className={`${styles.sectionHeadText}`}>COMPETITIONS</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Collaborations</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,17 +79,17 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following competitions and conferences highlight my ability to lead teams, create compelling narratives, and execute high-impact multimedia projects. Winning gold in the Open IIT Short Film Making Competition and Reel Rush at the Global Entrepreneurship Summit demonstrates my proficiency in storytelling, video production, and content curation. Additionally, securing silver in the Ad Design competition showcases my creative vision and ability to craft meaningful messages. These achievements reflect my leadership, teamwork, and problem-solving skills in fast-paced, competitive environments.
+          Partnered with renowned brands such as Swiggy, Flipkart Spoyl, Myntra FWD, Garnier, FanCall, and Disha Publication to create engaging multimedia content. These collaborations resulted in high-impact reels with thousands of views, showcasing expertise in storytelling, creative vision, and audience engagement.
         </motion.p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {projects2.map((project2, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project2} />
         ))}
       </div>
     </>
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Worksss, "");
