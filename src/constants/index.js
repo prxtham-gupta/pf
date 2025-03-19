@@ -141,8 +141,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2021 - Present",
     points: [
-      "Built a YouTube and Instagram presence with over 35,000 followers by creating content, fostering a strong and engaged community",
-      "Produced several viral videos, contributing to a view count of over 20 million, significantly enhancing channel & audience engagement",
+      "Built a YouTube and Instagram presence with over 50,000 followers by creating content, fostering a strong and engaged community",
+      "Produced several viral videos, contributing to a view count of over 50 million, significantly enhancing channel & audience engagement",
       "Executed brand promotions, including partnerships with Spilz, by creatively integrating products into content, driving brand awareness",
     ],
   },
@@ -339,7 +339,7 @@ const projects2 = [
   {
     name: "FanCall",
     description:
-      "Partnered with FanCall on a reel that received 1.5K views, exploring interactive fan engagement strategies.",
+      "Partnered with FanCall on a reel that received 1.5M views, exploring interactive fan engagement strategies.",
     tags: [
       {
         name: "FanCall",
